@@ -14,14 +14,10 @@
 (map! [f9]   'what-face
       ;; Essential
       "M-x"  'smex
-      "A-x"  'smex
       "M-X"  'smex-major-mode-commands
-      "A-X"  'smex-major-mode-commands
       "M-;"  'eval-expression
-      "A-;"  'eval-expression
       ;; Tools
       "M-/"  'evil-commentary-line
-      "A-/"  'evil-commentary-line
       "M-b"  'doom:build
       "C-`"  'doom/popup-last-buffer
       "C-~"  (λ! (doom:eshell t))
