@@ -451,6 +451,7 @@ lines are selected, or the NxM dimensions of a block selection."
                                                     ,(+ 1 (string-width (format-mode-line rhs)))))))))
       (list lhs mid rhs))))
 
+(require 'core-vcs)
 (setq-default mode-line-format (doom-modeline))
 
 (add-hook! image-mode
