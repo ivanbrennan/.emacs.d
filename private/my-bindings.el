@@ -32,10 +32,6 @@
       "M-W"  'delete-frame
       "M-n"  'doom/new-buffer
       "M-N"  'doom/new-frame
-      "C-j"  'evil-window-down
-      "C-k"  'evil-window-up
-      "C-h"  'evil-window-left
-      "C-l"  'evil-window-right
       "A-C-j" 'doom/evil-window-resize-d
       "A-C-k" 'doom/evil-window-resize-u
       "A-C-h" 'doom/evil-window-resize-l
@@ -48,10 +44,6 @@
       :e "j"    'evil-next-line
       :e "k"    'evil-previous-line
       :e "l"    'evil-forward-char
-      :e "C-h"  'evil-window-left
-      :e "C-j"  'evil-window-down
-      :e "C-k"  'evil-window-up
-      :e "C-l"  'evil-window-right
       ;; Switching tabs (workgroups)
       :m "C-1"  (λ! (doom:switch-to-tab 0))
       :m "C-2"  (λ! (doom:switch-to-tab 1))
