@@ -61,6 +61,7 @@
       "A-SPC"             'just-one-space
       "M-a"               'mark-whole-buffer
       "M-c"               'evil-yank
+      "M-o"               'find-file
       "M-q"               'save-buffers-kill-emacs
       "M-s"               'save-buffer
       "M-v"               'clipboard-yank
