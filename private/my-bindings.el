@@ -70,6 +70,7 @@
       "C-M-f"             'doom/toggle-fullscreen
       :m  "A-j"           'doom/multi-next-line
       :m  "A-k"           'doom/multi-previous-line
+      :n  "M-."           'xref-find-definitions
       :n  "M-r"           'doom:eval-buffer
       :v  "M-r"           'doom:eval-region
       :ni [M-f1]          'doom:docs-lookup
