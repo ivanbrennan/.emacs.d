@@ -74,6 +74,7 @@
       :n  "M-r"           'doom:eval-buffer
       :v  "M-r"           'doom:eval-region
       :ni [M-f1]          'doom:docs-lookup
+      :n  "U"             'undo-tree-redo
       ;; Textmate-esque indent shift left/right
       :i  "M-]"           'doom/smart-indent
       :i  "M-["           'doom/dumb-dedent
